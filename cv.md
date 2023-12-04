@@ -17,19 +17,14 @@ For the last five years, I have wanted to get involved in web technologies profe
 ### Code example
 ```js
 function rentalCarCost(d) {
-  let rent = 40;
-  if (d >= 7) {
-    return d * rent - 50;
-  } else if (d >= 3) {
-    return d * rent - 20;
-  } else {
-    return d * rent;
+  for (let i=0; i < 4; i++) {
+    console.log(`${i}: Hello, world! `)
   }
 };
 ```  
 
 ### Experience
-[coffee house Resource](https://rolling-scopes-school.github.io/yammyrukola-JSFE2023Q4/coffee-house/)
+[Coffee-house Resource](https://rolling-scopes-school.github.io/yammyrukola-JSFE2023Q4/coffee-house/)
 
 ### Education: 
 Robotics engineer, Penza State University
